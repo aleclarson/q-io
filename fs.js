@@ -8,6 +8,7 @@
 
 /*whatsupdoc*/
 
+require("lotus-require");
 var FS = require("fs"); // node
 var Q = require("q");
 var Reader = require("./reader");

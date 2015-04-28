@@ -1,4 +1,5 @@
 
+require("lotus-require");
 require("collections/shim");
 var Q = require("q");
 var FS = require("./fs");

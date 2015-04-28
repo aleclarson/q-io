@@ -1,3 +1,5 @@
+
+require("lotus-require");
 var Q = require("q");
 var Boot = require("./fs-boot");
 var RootFs = require("./fs-root");

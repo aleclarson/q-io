@@ -5,6 +5,7 @@
 
 /*whatsupdoc*/
 
+require("lotus-require");
 var HTTP = require("http"); // node
 var HTTPS = require("https"); // node
 var URL = require("url2"); // node

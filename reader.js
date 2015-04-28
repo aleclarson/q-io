@@ -1,4 +1,5 @@
 
+require("lotus-require");
 var Q = require("q");
 
 /**

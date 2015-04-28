@@ -39,6 +39,7 @@
  * @module
  */
 
+require("lotus-require");
 require("collections/shim");
 var Q = require("q");
 var HTTP = require("./http");

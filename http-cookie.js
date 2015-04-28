@@ -6,6 +6,7 @@
 
 /*whatsupdoc*/
 
+require("lotus-require");
 var QS = require("qs");
 
 /**
