@@ -29,7 +29,7 @@
     "lotus-require": "aleclarson/lotus-require#1.0.0",
     "mime": "^1.2.11",
     "mimeparse": "^0.1.4",
-    "q": "aleclarson/q",
+    "q": "aleclarson/q#1.0.0",
     "qs": "^1.2.1",
     "url2": "^0.0.0"
   },
