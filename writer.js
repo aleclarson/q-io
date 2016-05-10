@@ -1,5 +1,4 @@
 
-require("lotus-require");
 var Q = require("q");
 
 /**
@@ -111,4 +110,3 @@ function Writer(_stream, charset) {
 
     return Q(self); // todo returns the begin.promise
 }
-

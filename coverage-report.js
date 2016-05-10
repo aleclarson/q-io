@@ -1,5 +1,4 @@
 
-require("lotus-require");
 require("collections/shim");
 var Q = require("q");
 var FS = require("./fs");
@@ -42,4 +41,3 @@ FS.listTree(".coverage_data", function (name, stat) {
     }))
 })
 .done()
-

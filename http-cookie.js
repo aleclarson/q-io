@@ -6,7 +6,6 @@
 
 /*whatsupdoc*/
 
-require("lotus-require");
 var QS = require("qs");
 
 /**
@@ -73,4 +72,3 @@ exports.stringify = function (key, value, options) {
     }
     return cookie;
 };
-

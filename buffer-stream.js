@@ -1,5 +1,4 @@
 
-require("lotus-require");
 var Q = require("q");
 var Reader = require("./reader");
 
@@ -57,4 +56,3 @@ BufferStream.prototype.destroy = function () {
     this._close.resolve();
     return Q.resolve();
 };
-

@@ -1,5 +1,4 @@
 
-require("lotus-require");
 var Q = require("q");
 var HTTP = require("./http");
 var URL = require("url");
@@ -63,4 +62,3 @@ exports.read = function (request, qualifier) {
         return Client(fs).read(request);
     });
 };
-

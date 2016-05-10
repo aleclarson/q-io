@@ -39,7 +39,6 @@
  * @module
  */
 
-require("lotus-require");
 require("collections/shim");
 var Q = require("q");
 var HTTP = require("./http");
@@ -150,4 +149,3 @@ exports.Decorators = DecoratorApps.Decorators;
 
 var CookieApps = require("./http-apps/cookie");
 exports.CookieJar = CookieApps.CookieJar;
-

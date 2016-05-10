@@ -8,7 +8,6 @@
 
 /*whatsupdoc*/
 
-require("lotus-require");
 var FS = require("fs"); // node
 var Q = require("q");
 var Reader = require("./reader");
@@ -353,4 +352,3 @@ exports.readLink = function (path) {
 exports.mock = function (path) {
     return Mock.mock(this, path);
 };
-

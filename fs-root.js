@@ -1,5 +1,4 @@
 
-require("lotus-require");
 var Q = require("q");
 var BOOT = require("./fs-boot");
 var COMMON = require("./fs-common");
@@ -143,4 +142,3 @@ function RootFs(outer, root) {
         return inner;
     });
 }
-

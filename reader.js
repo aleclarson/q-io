@@ -1,5 +1,4 @@
 
-require("lotus-require");
 var Q = require("q");
 
 /**
@@ -131,4 +130,3 @@ function join(buffers) {
     buffers.splice(0, ii, result);
     return result;
 }
-
